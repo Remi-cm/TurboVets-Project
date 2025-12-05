@@ -1,0 +1,72 @@
+name: turbovets
+description: "A next-generation platform designed to empower military personnel with cutting-edge tools, resources, and support. Completely free for those who serve."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  provider: ^6.1.5+1
+  go_router: ^17.0.0
+  intl: ^0.20.2
+  firebase_ai: ^3.6.0
+  firebase_core: ^4.2.1
+  path_provider: ^2.1.5
+  hive_ce: ^2.15.1
+  fluentui_system_icons: ^1.1.273
+  flutter_markdown_plus: ^1.0.5
+  hive_ce_flutter: ^2.3.3
+  emoji_picker_flutter: ^4.4.0
+  image_picker: ^1.2.1
+  just_audio: ^0.10.5
+  webview_flutter: ^4.13.0
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  icons_launcher: ^3.0.3
+
+icons_launcher:
+  image_path: "assets/images/Logo.png"
+  platforms:
+    android:
+      enable: true
+      notification_image: "assets/images/Logo.png"
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/audio/
+
+  fonts:
+  - family: PlusJakartaSans
+    fonts:
+      - asset: assets/fonts/PlusJakartaSans/PlusJakartaSans-ExtraBold.ttf
+        weight: 800
+      - asset: assets/fonts/PlusJakartaSans/PlusJakartaSans-Bold.ttf
+        weight: 700
+      - asset: assets/fonts/PlusJakartaSans/PlusJakartaSans-SemiBold.ttf
+        weight: 600
+      - asset: assets/fonts/PlusJakartaSans/PlusJakartaSans-Medium.ttf
+        weight: 500
+      - asset: assets/fonts/PlusJakartaSans/PlusJakartaSans-Regular.ttf
+        weight: 400
+      - asset: assets/fonts/PlusJakartaSans/PlusJakartaSans-Light.ttf
+        weight: 300
+      - asset: assets/fonts/PlusJakartaSans/PlusJakartaSans-ExtraLight.ttf
+        weight: 200
