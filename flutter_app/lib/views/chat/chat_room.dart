@@ -26,6 +26,8 @@ class _ChatRoomState extends State<ChatRoom> with TickerProviderStateMixin {
   final TextEditingController _textController = TextEditingController();
   final ScrollController _scrollController = ScrollController();
   final ImagePicker _picker = ImagePicker();
+
+  final FocusNode _focusNode = FocusNode(); 
   
   late Box<ChatMessage> _messageBox;
   bool _isLoading = true;
@@ -38,7 +40,22 @@ class _ChatRoomState extends State<ChatRoom> with TickerProviderStateMixin {
   @override
   void initState() {
     super.initState();
+    _focusNode.addListener(() {
+      if (_focusNode.hasFocus) {
+        setState(() {
+          _showEmojiPicker = false;
+        });
+      }
+    });
     _initHiveAndService();
+  }
+
+  @override
+  void dispose() {
+    _focusNode.dispose();
+    _textController.dispose();
+    _scrollController.dispose();
+    super.dispose();
   }
 
   Future<void> _initHiveAndService() async {
@@ -254,11 +271,7 @@ class _ChatRoomState extends State<ChatRoom> with TickerProviderStateMixin {
                 Expanded(
                   child: TextField(
                     controller: _textController,
-                    focusNode: FocusNode()..addListener(() {
-                      if (FocusScope.of(context).hasFocus) {
-                        setState(() => _showEmojiPicker = false);
-                      }
-                    }),
+                    focusNode: _focusNode,
                     decoration: InputDecoration(
                       hintText: 'Type a message...',
                       filled: true,
