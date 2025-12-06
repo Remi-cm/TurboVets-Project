@@ -4,6 +4,7 @@ This repository contains the submission for the **"Messaging App with Embedded I
 
 <div align="center>
    <img src="https://firebasestorage.googleapis.com/v0/b/g4all-db.appspot.com/o/Samples%2FChatDark.png?alt=media&token=e1b74d37-2be5-4b67-829c-00140a3b25fe" width="180" />
+   <img src="https://firebasestorage.googleapis.com/v0/b/g4all-db.appspot.com/o/Samples%2FTurboVetsRecording.webm?alt=media&token=1e0c85bc-379e-48bc-90d8-d9a874dcdc0e" width="180" />
    <img src="https://firebasestorage.googleapis.com/v0/b/g4all-db.appspot.com/o/Samples%2FChatDark.png?alt=media&token=e1b74d37-2be5-4b67-829c-00140a3b25fe" width="180" />
    <img src="https://firebasestorage.googleapis.com/v0/b/g4all-db.appspot.com/o/Samples%2FDashboardDark.png?alt=media&token=794c9060-d571-46b9-a875-9ae2ecff8fd8" width="180" />
    <img src="https://firebasestorage.googleapis.com/v0/b/g4all-db.appspot.com/o/Samples%2FEmojiKeyboard.png?alt=media&token=77e203aa-ecfc-4149-a9fb-6995642d64a2" width="180" />
@@ -109,6 +110,9 @@ The dashboard must be running locally for the Flutter WebView to access it.
     flutter run
     ```
 
+### You can also directly install the apk
+The chat bot will be easier to test: https://drive.google.com/file/d/1tr7OibucxEF4NckPakPECJcasaIqw9wS/view?usp=sharing
+
 ---
 
-### Receive Thanks from Remi D.
+### Whatever the outcome, I really enjoyed doing this.
