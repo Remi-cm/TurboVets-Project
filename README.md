@@ -1,6 +1,7 @@
 # Flutter Chat & Internal Tools Dashboard
 
 This repository contains the submission for the **"Messaging App with Embedded Internal Tools Dashboard"** assessment. It consists of two distinct applications that work together:
+<row>
 
 <img src="https://firebasestorage.googleapis.com/v0/b/g4all-db.appspot.com/o/Samples%2FChatDark.png?alt=media&token=e1b74d37-2be5-4b67-829c-00140a3b25fe" width="180" />
 <img src="https://firebasestorage.googleapis.com/v0/b/g4all-db.appspot.com/o/Samples%2FDashboardDark.png?alt=media&token=794c9060-d571-46b9-a875-9ae2ecff8fd8" width="180" />
@@ -8,6 +9,9 @@ This repository contains the submission for the **"Messaging App with Embedded I
 <img src="https://firebasestorage.googleapis.com/v0/b/g4all-db.appspot.com/o/Samples%2FHomeScreenDark.png?alt=media&token=e7382c56-8fe9-4278-b12f-768fff2d1f07" width="180" />
 <img src="https://firebasestorage.googleapis.com/v0/b/g4all-db.appspot.com/o/Samples%2FDashboardLight.png?alt=media&token=fec0a5a6-c2b7-412c-9628-b1e0c380bd8c" width="180" />
 <img src="https://firebasestorage.googleapis.com/v0/b/g4all-db.appspot.com/o/Samples%2FDashboardDrawerDark.png?alt=media&token=a7ec768a-1cb2-43e2-8cc2-5601c213ef74" width="180" />
+
+</row>
+
 
 
 * **`flutter_app/`**: A native Flutter messaging app featuring an **AI Support Agent** (powered by Firebase AI/Gemini) and an embedded **WebView**.
