@@ -1,7 +1,7 @@
 # Flutter Chat & Internal Tools Dashboard
 
 This repository contains the submission for the **"Messaging App with Embedded Internal Tools Dashboard"** assessment. It consists of two distinct applications that work together:
-<img src="[https://user-images.githubusercontent.com/link-to-your-image.png](https://firebasestorage.googleapis.com/v0/b/g4all-db.appspot.com/o/Samples%2FChatDark.png?alt=media&token=e1b74d37-2be5-4b67-829c-00140a3b25fe)" width="100" />
+<img src="https://firebasestorage.googleapis.com/v0/b/g4all-db.appspot.com/o/Samples%2FChatDark.png?alt=media&token=e1b74d37-2be5-4b67-829c-00140a3b25fe" width="100" />
 ![alt text](https://firebasestorage.googleapis.com/v0/b/g4all-db.appspot.com/o/Samples%2FChatDark.png?alt=media&token=e1b74d37-2be5-4b67-829c-00140a3b25fe)
 ![alt text](https://firebasestorage.googleapis.com/v0/b/g4all-db.appspot.com/o/Samples%2FDashboardDark.png?alt=media&token=794c9060-d571-46b9-a875-9ae2ecff8fd8)
 ![alt text](https://firebasestorage.googleapis.com/v0/b/g4all-db.appspot.com/o/Samples%2FEmojiKeyboard.png?alt=media&token=77e203aa-ecfc-4149-a9fb-6995642d64a2)
