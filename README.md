@@ -3,7 +3,8 @@
 This repository contains the submission for the **"Messaging App with Embedded Internal Tools Dashboard"** assessment. It consists of two distinct applications that work together:
 
 <div align="center>
-   <video src="https://firebasestorage.googleapis.com/v0/b/g4all-db.appspot.com/o/Samples%2FChatDark.png?alt=media&token=e1b74d37-2be5-4b67-829c-00140a3b25fe" width="180" />
+   <img src="https://firebasestorage.googleapis.com/v0/b/g4all-db.appspot.com/o/Samples%2FChatDark.png?alt=media&token=e1b74d37-2be5-4b67-829c-00140a3b25fe" width="180" />
+   <video src="https://firebasestorage.googleapis.com/v0/b/g4all-db.appspot.com/o/Samples%2FChatDark.png?alt=media&token=e1b74d37-2be5-4b67-829c-00140a3b25fe" width="180" ></video>
    <img src="https://firebasestorage.googleapis.com/v0/b/g4all-db.appspot.com/o/Samples%2FTurboVetsRecording.webm?alt=media&token=1e0c85bc-379e-48bc-90d8-d9a874dcdc0e" width="180" />
    <img src="https://firebasestorage.googleapis.com/v0/b/g4all-db.appspot.com/o/Samples%2FChatDark.png?alt=media&token=e1b74d37-2be5-4b67-829c-00140a3b25fe" width="180" />
    <img src="https://firebasestorage.googleapis.com/v0/b/g4all-db.appspot.com/o/Samples%2FDashboardDark.png?alt=media&token=794c9060-d571-46b9-a875-9ae2ecff8fd8" width="180" />
