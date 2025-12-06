@@ -115,4 +115,4 @@ The chat bot will be easier to test: https://drive.google.com/file/d/1tr7OibucxE
 
 ---
 
-### Whatever the outcome, I really enjoyed doing this.
+### Really enjoyed doing this.
